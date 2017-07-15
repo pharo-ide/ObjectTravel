@@ -1,0 +1,3 @@
+private-navigation
+currentReferenceIndex
+	^currentReferenceIndex

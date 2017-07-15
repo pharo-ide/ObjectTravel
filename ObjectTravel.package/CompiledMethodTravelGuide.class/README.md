@@ -1,0 +1,1 @@
+I am special mirror to discover CompiledMethod references inside method literals

@@ -1,0 +1,3 @@
+accessing
+currentNodeIndex
+	^pathNodes size

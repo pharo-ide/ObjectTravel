@@ -1,0 +1,1 @@
+I am mirror for ordinary objects which structure can be traversed generally

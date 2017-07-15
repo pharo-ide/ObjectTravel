@@ -1,0 +1,3 @@
+navigation
+startNode
+	^pathNodes first
