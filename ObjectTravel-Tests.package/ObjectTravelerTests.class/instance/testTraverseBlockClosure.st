@@ -8,7 +8,7 @@ testTraverseBlockClosure
 
 	refs := traveler collectReferences.
 	refs should include: block outerContext.
-	refs should include: block.
+	refs should include: (Instance of: block).
 	refs should include: thisContext method.
 	refs should include: self.
 	refs size should be < 40
