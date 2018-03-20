@@ -1,4 +1,6 @@
 # ObjectTravel
+[![Build Status](https://travis-ci.org/dionisiydk/ObjectTravel.svg?branch=master)](https://travis-ci.org/dionisiydk/ObjectTravel)
+
 Object traveler is a tool to traverse full object graph. It allows enumerate each reference of given object in breadth-first direction and visit every reference only once.
 
 ```Smalltalk
