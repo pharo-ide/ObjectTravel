@@ -1,1 +1,0 @@
-I am mirror for objects which structure should not be traversable. Such objects I call empty

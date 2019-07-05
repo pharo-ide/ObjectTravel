@@ -1,3 +1,0 @@
-*ObjectTravel
-travelGuide
-	^OrdinaryObjectTravelGuide 

@@ -1,3 +1,0 @@
-navigation
-startNode
-	^pathNodes first
