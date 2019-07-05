@@ -18,12 +18,12 @@ traveler nextReference "20"
 ```Smalltalk
 Metacello new
   baseline: 'ObjectTravel';
-  repository: 'github://dionisiydk/ObjectTravel';
+  repository: 'github://pharo-ide/ObjectTravel';
   load
 ```
 Use following snippet for stable dependency in your project baseline:
 ```Smalltalk
 spec
     baseline: 'ObjectTravel'
-    with: [ spec repository: 'github://dionisiydk/ObjectTravel:v0.6.x' ]
+    with: [ spec repository: 'github://dionisiydk/pharo-ide:v1.0.0' ]
 ```
