@@ -9,7 +9,7 @@ BaselineOfObjectTravel >> baseline: spec [
 	<baseline>
 	spec for: #'common' do: [
 		spec baseline: 'StateSpecs' with: [
-			spec repository: 'github://dionisiydk/StateSpecs:v3.0.0' ].
+			spec repository: 'github://dionisiydk/StateSpecs:v4.0.0' ].
 		spec 
 			package: 'ObjectTravel';
 			package: 'ObjectTravel-Tests' with: [spec requires: #(StateSpecs ObjectTravel)].
