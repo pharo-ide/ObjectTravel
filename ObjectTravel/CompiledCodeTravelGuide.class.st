@@ -2,28 +2,28 @@
 I am special mirror to discover CompiledMethod references inside method literals
 "
 Class {
-	#name : #CompiledMethodTravelGuide,
+	#name : #CompiledCodeTravelGuide,
 	#superclass : #ObjectTravelGuide,
-	#category : 'ObjectTravel'
+	#category : #ObjectTravel
 }
 
 { #category : #navigation }
-CompiledMethodTravelGuide class >> isNode: aCompiledMethod hasLastReferenceAt: referenceIndex [
+CompiledCodeTravelGuide class >> isNode: aCompiledMethod hasLastReferenceAt: referenceIndex [
 	^referenceIndex >= aCompiledMethod numLiterals
 ]
 
 { #category : #navigation }
-CompiledMethodTravelGuide class >> isNodeEmpty: aCompiledMethod [
+CompiledCodeTravelGuide class >> isNodeEmpty: aCompiledMethod [
 	^aCompiledMethod numLiterals = 0
 ]
 
 { #category : #navigation }
-CompiledMethodTravelGuide class >> referenceOf: aCompiledMethod atIndex: referenceIndex [
+CompiledCodeTravelGuide class >> referenceOf: aCompiledMethod atIndex: referenceIndex [
 	^aCompiledMethod literalAt: referenceIndex 
 ]
 
 { #category : #operations }
-CompiledMethodTravelGuide class >> replaceReferenceOf: aCompiledMethod at: referenceIndex with: replacementObject [
+CompiledCodeTravelGuide class >> replaceReferenceOf: aCompiledMethod at: referenceIndex with: replacementObject [
 
 	aCompiledMethod literalAt: referenceIndex put: replacementObject 
 ]
