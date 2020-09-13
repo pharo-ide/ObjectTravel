@@ -256,9 +256,10 @@ ObjectTraveler >> moveBreadthToNextReference [
 ObjectTraveler >> moveDepthToNextReference [
 
 	| newNode |
-	[[self wantsTraverseCurrentReference not and: [self moveBreadthToNextReference]] whileTrue.
-	
-	path size = 1 or: [self wantsTraverseCurrentReference]] whileFalse: [ 
+	[
+		[self wantsTraverseCurrentReference not and: [self moveBreadthToNextReference]] whileTrue.
+		path size = 1 or: [self wantsTraverseCurrentReference]
+	] whileFalse: [ 
 		self moveBackInDepth.
 		(currentReferenceIndex <= 0) ifTrue: [ 
 			"Depth way was forced by #atNextStepVisit: and now we need to continue walk breadth"

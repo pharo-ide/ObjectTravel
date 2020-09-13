@@ -370,7 +370,7 @@ ObjectTravelerTests >> testTraverseBlockClosure [
 	refs should include: (Identical to: block).
 	refs should include: thisContext method.
 	refs should include: self.
-	refs size should be < 42
+	refs size should be < 46
 ]
 
 { #category : #tests }
