@@ -1,5 +1,13 @@
 # ObjectTravel
-[![Build Status](https://travis-ci.org/pharo-ide/ObjectTravel.svg?branch=master)](https://travis-ci.org/pharo-ide/ObjectTravel)
+
+[![GitHub release](https://img.shields.io/github/release/pharo-ide/ObjectTravel.svg)](https://github.com/pharo-ide/ObjectTravel/releases/latest)
+[![Unit Tests](https://github.com/pharo-ide/ObjectTravel/actions/workflows/tests.yml/badge.svg)](https://github.com/pharo-ide/ObjectTravel/actions/workflows/tests.yml)
+
+[![Pharo 7.0](https://img.shields.io/badge/Pharo-7.0-informational)](https://pharo.org)
+[![Pharo 8.0](https://img.shields.io/badge/Pharo-8.0-informational)](https://pharo.org)
+[![Pharo 9.0](https://img.shields.io/badge/Pharo-9.0-informational)](https://pharo.org)
+[![Pharo 10](https://img.shields.io/badge/Pharo-10-informational)](https://pharo.org)
+[![Pharo 11](https://img.shields.io/badge/Pharo-11-informational)](https://pharo.org)
 
 Object traveler is a tool to traverse full object graph. It allows enumerate each reference of given object in breadth-first direction and visit every reference only once.
 
